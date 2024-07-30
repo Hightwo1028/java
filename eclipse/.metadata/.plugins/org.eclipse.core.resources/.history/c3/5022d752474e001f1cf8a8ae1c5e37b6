@@ -1,0 +1,12 @@
+package tw.hightwo.tutor;
+
+public class Hightwo99 {
+
+	public static void main(String[] args) {
+		for( int i = 2; i <= 5 ; i++ ) {
+			System.out.printf("%d * 1 = %d  ",i , i*1);
+		}
+
+	}
+
+}

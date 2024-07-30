@@ -1,0 +1,24 @@
+package tw.hightwo.tutor;
+
+import java.util.Scanner;
+
+public class hightwo02 {
+
+	public static void main(String[] args) {
+		//input
+		Scanner scannerA = new Scanner(System.in);
+		
+		System.out.print("X = ");
+		int a = scannerA.nextInt();
+		
+		System.out.print("Y = ");
+		int b = scannerA.nextInt();
+		// op..
+		int result = a + b;
+		//output
+		//System.out.println(a);
+		//System.out.println(b);
+		System.out.printf("%d + %d = %d", a, b, result);
+	}
+
+}

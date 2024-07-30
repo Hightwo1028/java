@@ -1,0 +1,11 @@
+package tw.hightwo.tutor;
+
+public class hightwo01 {
+
+	public static void main(String[] args) {
+		//整數: byte, short, int, long
+		byte var1;  // 2^8 => -128 ~ 127
+		var1 = 127;
+	}
+
+}

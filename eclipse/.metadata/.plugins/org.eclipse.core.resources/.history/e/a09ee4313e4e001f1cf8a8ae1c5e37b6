@@ -1,0 +1,21 @@
+package tw.hightwo.tutor;
+
+public class hightwo05 {
+
+	public static void main(String[] args) {
+		int year = 1200;
+
+		if (year % 4 == 0 ) {
+			if (year % 100 == 0 && year % 400 != 0) {
+				System.out.println("平年");
+			}
+			else {
+				System.out.println("閏年");
+			}
+		}
+		else {
+			System.out.println("平年");
+		}
+	}
+
+}

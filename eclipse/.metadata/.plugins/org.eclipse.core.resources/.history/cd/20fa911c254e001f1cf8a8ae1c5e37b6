@@ -1,0 +1,16 @@
+package tw.hightwo.tutor;
+
+import java.util.Scanner;
+
+public class hightwo02 {
+
+	public static void main(String[] args) {
+		//input
+		Scanner scannerA = new Scanner(System.in)
+		// op..
+		
+		//output
+
+	}
+
+}
