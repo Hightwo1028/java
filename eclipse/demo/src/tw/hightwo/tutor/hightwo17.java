@@ -50,21 +50,21 @@ public class hightwo17 {
 
     public static void main(String[] args) {
         TWId id1 = new TWId();
-        TWId id2 = new TWId(false);
-        TWId id3 = new TWId('B');
-        TWId id4 = new TWId(true, 'Y');
-        TWId id5 = TWId.newTWId("P123837722");
+//        TWId id2 = new TWId(false);
+//        TWId id3 = new TWId('B');
+//        TWId id4 = new TWId(true, 'Y');
+//        TWId id5 = TWId.newTWId("P123837722");
 
         System.out.println(id1.getId());
-        System.out.println(id2.getId());
-        System.out.println(id3.getId());
-        System.out.println(id4.getId());
-        System.out.println(id5.getId());
-        System.out.println(id5.isMale());
+//        System.out.println(id2.getId());
+//        System.out.println(id3.getId());
+//        System.out.println(id4.getId());
+//        System.out.println(id5.getId());
+//        System.out.println(id5.isMale());
 
         // 調用 printArea 方法展示區域名稱
-        printArea(id1); // 假設 id1.whichArea() 返回的字符存在於 areaMap 中
-        printArea(id3); // 例如，這裡會輸出 "台中市"
-        printArea(id5); // 依賴於 id5 的 whichArea() 返回值
+//        printArea(id1); // 假設 id1.whichArea() 返回的字符存在於 areaMap 中
+//        printArea(id3); // 例如，這裡會輸出 "台中市"
+//        printArea(id5); // 依賴於 id5 的 whichArea() 返回值
     }
 }
